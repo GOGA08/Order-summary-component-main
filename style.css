@@ -1,0 +1,234 @@
+body {
+
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+  .Container {
+    background-color: #FFFFFF;
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    filter: drop-shadow(0 40 40 rgba(13, 48, 189, 0.1518))
+}
+
+.image {
+    position: relative; 
+}
+
+img {
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.t_discription {
+    padding: 48px 48px 20px 48px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #1F2E55;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 37.04px;   
+}
+  
+.discription {
+    line-height: 26px;
+    color: #717FA6;
+    font-weight: 500;
+    padding-top: 17px;
+    font-size: 16px;
+    width: 354px;
+    height: 78px
+}
+
+.Child_Container {
+    background-color: #F7F9FF;
+    border-radius: 11px;
+    height: 98px; 
+    width: 354px;
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 20px 48px 32px 48px; 
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.music {
+    width: 48px;
+    height: 48px;
+    margin: 25px 20px 25px 25px;
+}
+
+#first {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0px;
+    top: 25px;
+    left: 92px;
+    color: #1f2e55;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+#second {
+     position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0px;
+    top: 52px;
+    left: 92px;
+    color: #717fa6;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+span a {
+    text-decoration: underline;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0px;
+    bottom: 39px;
+    left: 278px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #382ae1;
+  }
+span a:hover {
+    color: #766CF1;
+  }
+
+.button {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    background: #382ae1;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19.85px;
+    color:#FFFFFF;
+    margin-left: 48px;
+    opacity: rgba(56, 42, 225, 0.1903);
+  }
+/* hover */
+.button:hover {
+    background-color: #766cf1;
+    cursor: pointer;
+  }
+
+.cancel {
+    font-size: 15px;
+    color: #717fa6;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 32px;
+    line-height: 20px;
+  }
+
+  .bottom {
+     font-size: 11px;
+      text-align: center;
+       margin: 5px;
+ }
+
+  .cancel:hover {
+    color: #1F2E55;
+    cursor: pointer;
+  }
+
+@media only screen and (max-width: 1440px) {
+    /* for mobile */
+    .Container {
+    width: 327px;
+    height: 567px;
+    }
+
+    .title_discription {
+      padding: 24px 32px 24px 32px;
+    }
+
+    .title{
+      Width: 263px;
+      Height: 29px;
+      font-size: 22px;
+    }
+
+    .discription {
+      width: 263px;
+      height: 75px;
+      font-size: 15px;
+    }
+
+    .Child_Container {
+      width: 279px;
+      height: 81px;
+      margin-left:24px;
+    }
+
+    .music {
+      width: 48px;
+      height: 48px;
+      margin: 17px 20px 16px 16px;
+    }
+
+    #first {
+      font-size: 14px;
+      bottom: 3px;
+      top: 21px;
+    }
+
+    #second {
+        bottom: 19px;
+        top: 41px;
+        font-size: 14px; 
+    }
+
+    span a {
+        bottom: 31px;
+        left: 215px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .button{
+      Width: 279px;
+      Height: 50px;
+      margin-left: 24px;
+    }
+
+    .cancel {
+      Width:96px;
+      height: 20px;
+      margin-top: 24px;
+      margin-left: 116px;
+    }
+}
